@@ -1,0 +1,27 @@
+version: 1
+dn: dc=ejemplo,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+dc: ejemplo
+o: ejemplo
+
+dn: ou=usuarios,dc=ejemplo,dc=com
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: uid=Niel Amstrong,ou=usuarios,dc=ejemplo,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: posixAccount
+objectClass: top
+cn: user1
+gidNumber: 10001
+homeDirectory: /home/ldapuser1
+loginShell: /bin/bash
+sn: Niel Amstrong
+uid: Niel Amstrong
+uidNumber: 20000
+userPassword:: e1NIQX1xVWZOMkcyZEx0VWIyZEVnVkNoSHhyQnBKQ0U9
+
